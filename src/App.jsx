@@ -1,8 +1,10 @@
 import './App.css'
-import FetchData from './components/FetchData'
+import Todos from './components/Todos/Todos'
 
 const App = () => {
- return <FetchData />
+ return (
+	<Todos />
+ )
 }
 
 export default App
